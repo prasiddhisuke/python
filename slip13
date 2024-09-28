@@ -1,0 +1,10 @@
+num=int(input("enter any positive number:"))
+try:
+    if num>=0:
+        raise ValueError("positive number-input number is correct")
+    else:
+        raise ValueError("negative number-input number is incorrect")
+except ValueError as e:
+    print(e)
+        
+    
